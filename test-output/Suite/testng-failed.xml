@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="uid" value="vikrish"/>
+    <groups>
+      <run>
+        <include name="reg"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Gen.cool.dataprovider">
+        <methods>
+          <include name="ca"/>
+        </methods>
+      </class> <!-- Gen.cool.dataprovider -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7416" started-at="2019-09-01T05:06:23Z" finished-at="2019-09-01T05:06:31Z">
+    <groups>
+      <group name="reg">
+        <method signature="dataprovider.ca(java.lang.String)[pri:0, instance:Gen.cool.dataprovider@475530b9]" name="ca" class="Gen.cool.dataprovider"/>
+        <method signature="mypage.l()[pri:0, instance:Gen.cool.mypage@2b98378d]" name="l" class="Gen.cool.mypage"/>
+        <method signature="mypage.launch()[pri:0, instance:Gen.cool.mypage@2b98378d]" name="launch" class="Gen.cool.mypage"/>
+        <method signature="mypage.z(java.lang.String)[pri:0, instance:Gen.cool.mypage@2b98378d]" name="z" class="Gen.cool.mypage"/>
+        <method signature="mypage.xx()[pri:0, instance:Gen.cool.mypage@2b98378d]" name="xx" class="Gen.cool.mypage"/>
+      </group> <!-- reg -->
+    </groups>
+    <test name="Test" duration-ms="7416" started-at="2019-09-01T05:06:23Z" finished-at="2019-09-01T05:06:31Z">
+      <class name="Gen.cool.dataprovider">
+        <test-method status="PASS" signature="ca(java.lang.String)[pri:0, instance:Gen.cool.dataprovider@475530b9]" name="ca" duration-ms="1" started-at="2019-09-01T05:06:31Z" data-provider="pora" finished-at="2019-09-01T05:06:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hhh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ca -->
+      </class> <!-- Gen.cool.dataprovider -->
+      <class name="Gen.cool.mypage">
+        <test-method status="PASS" signature="l()[pri:0, instance:Gen.cool.mypage@2b98378d]" name="l" duration-ms="3530" started-at="2019-09-01T05:06:23Z" finished-at="2019-09-01T05:06:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- l -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:Gen.cool.mypage@2b98378d]" name="launch" duration-ms="3835" started-at="2019-09-01T05:06:27Z" finished-at="2019-09-01T05:06:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="z(java.lang.String)[pri:0, instance:Gen.cool.mypage@2b98378d]" name="z" duration-ms="3" started-at="2019-09-01T05:06:31Z" finished-at="2019-09-01T05:06:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vikrish]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- z -->
+        <test-method status="PASS" signature="xx()[pri:0, instance:Gen.cool.mypage@2b98378d]" name="xx" duration-ms="1" started-at="2019-09-01T05:06:31Z" depends-on-methods="Gen.cool.mypage.z" finished-at="2019-09-01T05:06:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xx -->
+      </class> <!-- Gen.cool.mypage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
